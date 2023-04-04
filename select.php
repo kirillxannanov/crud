@@ -3,6 +3,7 @@ require_once "connect.php";
 
 $selects = mysqli_query($connect, "SELECT * FROM `formpeople`");
 $selects = mysqli_fetch_all($selects);
+$bool = true;
 
 
 ?>
